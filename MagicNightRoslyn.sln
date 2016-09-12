@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicNightRoslyn", "MagicNightRoslyn\MagicNightRoslyn\MagicNightRoslyn.csproj", "{8D717921-B22F-424D-8F19-92FC590AB003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicNightRoslyn.Test", "MagicNightRoslyn\MagicNightRoslyn.Test\MagicNightRoslyn.Test.csproj", "{000293BE-FD21-4872-91AF-096D7E1A90A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicNightRoslyn.Vsix", "MagicNightRoslyn\MagicNightRoslyn.Vsix\MagicNightRoslyn.Vsix.csproj", "{A7DCDB34-C798-489A-84A8-A429DF4A0B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormatAttribute", "StringFormatAttribute\StringFormatAttribute.csproj", "{9692160A-9408-4D1E-8C6D-B5ECD6528273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicNightRoslynExample", "MagicNightRoslynExample\MagicNightRoslynExample.csproj", "{D979F2CD-8E52-4828-A3DF-AD15D51C0C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D717921-B22F-424D-8F19-92FC590AB003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D717921-B22F-424D-8F19-92FC590AB003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D717921-B22F-424D-8F19-92FC590AB003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D717921-B22F-424D-8F19-92FC590AB003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000293BE-FD21-4872-91AF-096D7E1A90A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000293BE-FD21-4872-91AF-096D7E1A90A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000293BE-FD21-4872-91AF-096D7E1A90A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000293BE-FD21-4872-91AF-096D7E1A90A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DCDB34-C798-489A-84A8-A429DF4A0B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DCDB34-C798-489A-84A8-A429DF4A0B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DCDB34-C798-489A-84A8-A429DF4A0B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DCDB34-C798-489A-84A8-A429DF4A0B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9692160A-9408-4D1E-8C6D-B5ECD6528273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9692160A-9408-4D1E-8C6D-B5ECD6528273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9692160A-9408-4D1E-8C6D-B5ECD6528273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9692160A-9408-4D1E-8C6D-B5ECD6528273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D979F2CD-8E52-4828-A3DF-AD15D51C0C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D979F2CD-8E52-4828-A3DF-AD15D51C0C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D979F2CD-8E52-4828-A3DF-AD15D51C0C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D979F2CD-8E52-4828-A3DF-AD15D51C0C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
