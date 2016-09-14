@@ -1,10 +1,10 @@
 ﻿using System;
-//using StringFormatAttribute;
+using StringFormatAttribute;
 
 namespace MagicNightRoslynExample {
     internal class Program {
 
-        //[StringFormat(formatParam: "formatString", argsParam: "arguments")]
+        [StringFormat(formatParam: "formatString", argsParam: "arguments")]
         public static void Log(DateTime date, string formatString, params string[] arguments) {
             Console.WriteLine(date + ": " + string.Format(formatString, arguments));
         }

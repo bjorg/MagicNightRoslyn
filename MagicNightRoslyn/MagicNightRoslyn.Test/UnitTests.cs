@@ -2,11 +2,10 @@
 using Microsoft.CodeAnalysis.CodeFixes;
 using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using TestHelper;
-using MagicNightRoslyn;
 
 namespace MagicNightRoslyn.Test {
+
     [TestClass]
     public class UnitTest : CodeFixVerifier {
 
@@ -32,12 +31,18 @@ namespace MagicNightRoslyn.Test {
     namespace ConsoleApplication1
     {
         class TypeName
-        {   
+        {
+            [StringFormat(formatParam: ""formatString"", argsParam: ""arguments"")]
+            void Log(string formatString, params object[] arguments) { }
+
+            void Test() {
+                Log(""{0} {13}"", 123);
+            }
         }
     }";
             var expected = new DiagnosticResult {
                 Id = "MagicNightRoslyn",
-                Message = String.Format("Type name '{0}' contains lowercase letters", "TypeName"),
+                Message = "Type name \'TypeName\' contains lowercase letters",
                 Severity = DiagnosticSeverity.Warning,
                 Locations =
                     new[] {
@@ -58,7 +63,7 @@ namespace MagicNightRoslyn.Test {
     namespace ConsoleApplication1
     {
         class TYPENAME
-        {   
+        {
         }
     }";
             VerifyCSharpFix(test, fixtest);
